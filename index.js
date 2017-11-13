@@ -11,11 +11,11 @@ const HiddenTextField = EnhanceTextField(
     const fieldValue = get(record, source);
 
     return (
-      <span style={elStyle}>
+      <span style={{ ...elStyle, whiteSpace: 'nowrap' }}>
         {shown ? fieldValue : fieldValue.replace(/./g, '•')}
         <FlatButton
           icon={<ImageEye />}
-          style={{ minWidth: '36px', marginLeft: '5px' }}
+          style={{ minWidth: 36, marginLeft: 5 }}
           onClick={() => setShown(shown => !shown)}
         />
       </span>
