@@ -1,15 +1,16 @@
 {
   "name": "aor-hidden-text-field",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Admin-on-rest component for hidden text field",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "keywords": [
+    "aor",
+    "admin-on-rest",
+    "hidden-field"
+  ],
   "author": "Mirza Brunjadze <brunjadzem@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "admin-on-rest": "^1.2.0"
+    "admin-on-rest": "^1.3.2"
   }
 }
